@@ -1,0 +1,215 @@
+﻿@CHARSET "UTF-8";
+
+#content_body {
+	font-family: Arial;
+	font-size: 12pt;
+	width: 995px;
+	margin-bottom: 10px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 58px;
+}
+
+.bg {
+    position: fixed;
+    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(150, 150, 150, 0);
+}
+
+.uploadWindow {
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 40px;
+	z-index: 999;
+	width: 680px;
+	height: 461px;
+	left: 140px;
+	top: -37px;
+	position: absolute;
+}
+
+#uploadWindowTile {
+	background-color: #ECECEC;
+	height: 40px;
+	font-family: Arial;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 18px;
+	cursor: move;
+}
+
+#uploadWindowCloseButton {
+	margin-left: 633px;
+	margin-top: -40px;
+	position: absolute;
+	cursor: pointer;
+	font-size: 28px;
+	color: #B6AEAE;
+}
+
+.srcImgJcrop {
+    padding: 18px 18px 0px;
+    position:relative;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+}
+
+.crop_preview150 {
+    position:absolute;
+    left: 480px;
+    top:0;
+    margin-top: 40px;
+    margin-left: -60px;
+    width:150px;
+    height:150px;
+    overflow:hidden;
+}
+
+.crop_preview65 {
+    position:absolute;
+    left: 480px;
+    top:0;
+    margin-top: 197px;
+    margin-left: -60px;
+    width:65px;
+    height:65px;
+    overflow:hidden;
+}
+
+.crop_preview30 {
+    position:absolute;
+    left: 480px;
+    top:0;
+    margin-top: 269px;
+    margin-left: -60px;
+    width:30px;
+    height:30px;
+    overflow:hidden;
+}
+
+
+#upbutton {
+	width: 102px;
+    height: 30px;
+    border: 0px;
+	cursor: pointer;
+    background: url(../../images/upload-avatar/upbutton.jpg) no-repeat; 
+}
+
+#srcImg_box {
+	position: absolute;
+    width: 375px;
+    height: 281px;
+    background-color: #EEEEEE;
+}
+
+#srcImg {
+    position: absolute;
+}
+
+#imgAround {
+	text-align: center;
+}
+
+#tip_words {
+    left: 480px;
+    margin-top: -12px;
+    margin-left: 400px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #979090;
+    width: 252px;
+}
+
+#size150 {
+    left: 480px;
+    margin-top: 45px;
+    margin-left: 565px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #979090;
+    width: 65px;
+}
+
+#size65 {
+	left: 480px;
+	margin-top: 78px;
+	margin-left: 474px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #979090;
+	width: 65px;
+}
+
+#size30 {
+	left: 480px;
+	margin-top: 15px;
+	margin-left: 436px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #979090;
+	width: 65px;
+}
+
+#right_border {
+	position: absolute;
+    margin-left: 676px;
+	width: 5px;
+	height: 464px;
+	background: url(../../images/upload-avatar/border-left.jpg); 
+}
+
+#left_border {
+    position: absolute;
+    margin-left: -2px;
+    width: 2px;
+    height: 464px;
+    background: url(../../images/upload-avatar/border-left.jpg); 
+}
+
+#bottom_border {
+	position: absolute;
+    width: 682px;
+    height: 5px;
+    margin-left: -4px;
+	margin-top: 459px;
+    background: url(../../images/upload-avatar/border-bottom.jpg); 
+}
+
+#save {
+	position: absolute;
+	margin-left: -95px;
+    width: 80px;
+    height: 30px;
+    border: 0px;
+    cursor: pointer;
+    background: url(../../images/upload-avatar/btn_cancelandno_normal_80x30.png) no-repeat; 
+}
+
+#save:HOVER {
+	background: url(../../images/upload-avatar/btn_cancelandno_hover_80x30.png) no-repeat; 
+}
+
+#rechoose:HOVER {
+    background: url(../../images/upload-avatar/btn_cancelandno_hover_80x30.png) no-repeat; 
+}
+
+#rechoose {
+	position: absolute;
+	margin-left: 23px;
+    width: 80px;
+    height: 30px;
+    border: 0px;
+    cursor: pointer;
+    background: url(../../images/upload-avatar/btn_cancelandno_normal_80x30.png) no-repeat;
+}
+
+#defaultImg {
+	width: 150px;
+	height: 150px;
+}
